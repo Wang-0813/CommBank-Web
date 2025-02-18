@@ -20,6 +20,7 @@ export interface Application {
 export interface Goal {
   id: string
   name: string
+  icon?: string  // 🆕 添加 icon 字段，可选
   targetAmount: number
   balance: number
   targetDate: Date
